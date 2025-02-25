@@ -1,0 +1,183 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Left Section */
+.left {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.left h1 {
+  color: #1877f2;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.left p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Right Section */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Login Box */
+.login-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1877f2;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #166fe5;
+}
+
+.forgot {
+  display: block;
+  margin: 12px 0;
+  font-size: 0.9rem;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  height: 1px;
+  background: #ddd;
+  margin: 12px 0;
+}
+
+.create-btn {
+  background: #42b72a;
+}
+
+.create-btn:hover {
+  background: #36a420;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.bottom-text a {
+  color: #1877f2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .left h1 {
+    font-size: 2.5rem;
+  }
+
+  .left p {
+    font-size: 1rem;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 480px) {
+  .left h1 {
+    font-size: 2rem;
+  }
+
+  .left p {
+    font-size: 0.9rem;
+  }
+
+  .login-box {
+    padding: 15px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}

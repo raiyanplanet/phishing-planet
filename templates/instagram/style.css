@@ -1,0 +1,136 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+button {
+    background: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0078d4;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.separator span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.separator::before, .separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 0 10px;
+}
+
+.fb-login {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.signup-box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.app-links img {
+    width: 120px;
+    margin: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-box, .signup-box {
+        width: 90%;
+    }
+}

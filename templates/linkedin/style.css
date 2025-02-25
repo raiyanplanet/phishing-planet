@@ -1,0 +1,135 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    width: 350px;
+}
+
+/* LinkedIn Logo */
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    color: #0a66c2;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* Sign-in Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #0a66c2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #004182;
+}
+
+/* OR Divider */
+.or {
+    margin: 15px 0;
+    font-size: 14px;
+    color: gray;
+    position: relative;
+}
+
+.or::before, .or::after {
+    content: "";
+    display: block;
+    width: 45%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+}
+
+.or::before {
+    left: 0;
+}
+
+.or::after {
+    right: 0;
+}
+
+/* Google Sign-in Button */
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    color: #555;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background: #f3f3f3;
+}
+
+/* Join Now */
+.join-now {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.join-now a {
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.join-now a:hover {
+    text-decoration: underline;
+}
