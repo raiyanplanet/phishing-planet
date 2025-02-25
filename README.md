@@ -25,7 +25,7 @@ cd phishing-planet
 pip install -r requirements.txt
 
 # Run the tool
-python phishing_planet.py
+server.py
 ```
 
 ## 🚀 Usage
