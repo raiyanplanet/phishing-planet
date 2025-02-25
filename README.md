@@ -1,4 +1,7 @@
-# Phishing Planet
+# 🌍 Phishing Planet  
+
+![Phishing Planet](https://raw.githubusercontent.com/raiyanplanet/phishing-planet/main/banner.png)  
+
 
 **Author:** RaiyanPlanet  
 **Purpose:** For educational and cybersecurity awareness only.
