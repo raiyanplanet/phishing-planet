@@ -23,14 +23,16 @@ To set up **Phishing Planet**, follow these steps:
 # Clone the repository
 git clone https://github.com/raiyanplanet/phishing-planet.git
 cd phishing-planet
-
+```
+```bash
 # Install dependencies
 pip install -r requirements.txt
-
-# Run the tool
-server.py
 ```
 
+```bash
+# Run the tool
+python3 server.py
+```
 ## 🚀 Usage
 1. Select the target platform from the available templates.
 2. Generate a phishing page.
